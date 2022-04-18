@@ -23,7 +23,7 @@ export const Resume = () => {
             label: 'text-neutral-100 text-lg'
           }}
         >
-          <AccordionItem label='Work Experiences'>
+          <AccordionItem label='Work Experience'>
             <p className='font-bold'>Data Analyst</p>
             <p>Lighter Foodprint</p>
             <i>Jan 2021 - Present</i>

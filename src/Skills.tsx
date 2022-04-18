@@ -19,7 +19,7 @@ export const Skills = () => {
                                 <img width={40} src={`/${el.titleIcon}.svg`}/>
                                 <h1 className="font-bold text-xl">{el.title}</h1>
                             </div>
-                            <p className="text-neutral-100/80 mt-2 text-lg indent-10">{el.bodytext}</p>
+                            <p className="text-neutral-100/80 mt-2 text-lg ml-1">{el.bodytext}</p>
                         </li>
                     )
                 })}
@@ -38,12 +38,12 @@ const skillsData = [
     {
         title: 'Analytic Mind',
         titleIcon: 'analytic',
-        bodytext: "I like taking on challenges that involve analytical thinking. More complex problems often require a lot of deconstructions to piece the solution together. As a data science, I am to achieve that by using data as supportive evidence to identify the root of the problem."
+        bodytext: "I enjoy taking on challenges that involve analytical thinking. I believe that solving complex problems requires the ability to identify variables and deconstruct them into sensible insights to piece cutting-edge solutions. As a data scientist, I aim to achieve that by using data as supportive evidence to identify the root of the problem and finding the right answer to the questions of importance to the world."
     },
     {
         title: 'Community-oriented',
         titleIcon: 'community',
-        bodytext: "Building stronger connections to communities are what drives me to work harder and be more satisfied with the work I do. I enrich my communities by contributing to their social and economic development in long-lasting, sustainable ways such as my involvement to reduce the impact of climate change."
+        bodytext: "I enrich my communities by contributing to their social and economic development in long-lasting, sustainable ways such as my involvement in the food industry to expand awareness on food labels to restaurant businesses through customer analytics to reduce the impact of carbon footprint"
     },
     {
         title: 'Languages',

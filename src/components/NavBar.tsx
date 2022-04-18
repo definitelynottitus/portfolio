@@ -71,7 +71,14 @@ export const NavBar = (prop:p) => {
             animate={{ opacity: [0,1],y: [-100,0] }}
             transition={{ duration: 1 }}
         >
-          <img width={35} className="mr-auto" src='/favicon.svg'/>
+          <motion.a 
+            className='mr-auto' 
+            href='#home'
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <img width={35} src='/favicon.svg'/>
+          </motion.a>
             {children}
         </motion.nav> 
     )
