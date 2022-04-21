@@ -11,7 +11,7 @@ export const HomePanel = ()=> {
                 <h2 className=" text-8xl sm:text-9xl mt-1 bg-gradient-to-r bg-clip-text text-transparent from-sky-500 via-teal-400 to-sky-500 animate-text font-bold">Titus Liu.</h2>
                 <h2 className="text-3xl mt-8 text-gray-400">
                     <span className="text-neutral-200">Data Engineer. </span>
-                    A aspiring data scientist who is interested in data visualization, analysis reports, and machine learning.
+                    An aspiring data scientist who is interested in data visualization, analysis reports, and machine learning.
                 </h2>
                 <p className="text-xl mt-6 text-gray-400"> 🚀 Always exploring more on data pipelines.<br/>🌱 Currently improving on web development on the side.</p>
                 <div className="text-neutral-200 mt-8 flex gap-3 text-lg">
